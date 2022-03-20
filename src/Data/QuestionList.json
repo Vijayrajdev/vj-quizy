@@ -1,0 +1,47 @@
+[
+  {
+    "title": "What is JavaScript?",
+    "options": [
+      "scripting language",
+      "assembly language",
+      "compiled language",
+      " None"
+    ],
+    "correctOptionIndex": "0"
+  },
+  {
+    "title": "Which of the following is correct about JavaScript?",
+    "options": [
+      "assembly language",
+      "Object-Based language",
+      "Object-Oriented language",
+      " None"
+    ],
+    "correctOptionIndex": "1"
+  },
+  {
+    "title": "Arrays in JavaScript are defined by which of the following statements?",
+    "options": [
+      "ordered list of values",
+      "ordered list of objects",
+      "ordered list of string",
+      "ordered list of functions"
+    ],
+    "correctOptionIndex": "0"
+  },
+  {
+    "title": "Which of the following is not javascript data types?",
+    "options": [
+      "Null type",
+      "Undefined type",
+      "Number type",
+      "All of the mentioned"
+    ],
+    "correctOptionIndex": "3"
+  },
+  {
+    "title": "Which of the following object is the main entry point to all client-side JavaScript features and APIs?",
+    "options": ["Window", "Standard", "Position", "Location"],
+    "correctOptionIndex": "2"
+  }
+]

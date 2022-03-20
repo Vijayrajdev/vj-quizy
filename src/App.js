@@ -1,10 +1,24 @@
+import { useState } from "react";
+import Navbar from "./components/layouts/Navbar";
+import Footer from "./components/layouts/Footer";
+import QuizScreen from "./components/QuizScreen";
+import JoinScreen from "./components/JoinScreen";
 import "./App.css";
 
 function App() {
+  const [isQuizStarted, setisQuizStarted] = useState(false);
   return (
-    <div className="App">
-      <h1 className="text-xl text-blue-500 font-extrabold">Quizy</h1>
-    </div>
+    <>
+      <Navbar />
+      <div>
+        {isQuizStarted ? (
+          <QuizScreen retry={() => setisQuizStarted(false)} />
+        ) : (
+          <JoinScreen start={() => setisQuizStarted(true)} />
+        )}
+      </div>
+      <Footer />
+    </>
   );
 }
 
