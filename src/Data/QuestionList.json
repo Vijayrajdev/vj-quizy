@@ -42,6 +42,6 @@
   {
     "title": "Which of the following object is the main entry point to all client-side JavaScript features and APIs?",
     "options": ["Window", "Standard", "Position", "Location"],
-    "correctOptionIndex": "2"
+    "correctOptionIndex": "1"
   }
 ]
